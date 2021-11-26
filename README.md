@@ -15,3 +15,5 @@ Telegram-bot, который переводит голосовые сообще�
 <br>
 <h4 align="center">Технологии:
 Node.js, Axios, Node-telegram-bot-api, Yandex SpeechKit API.</h4>
+<br>
+<br>
