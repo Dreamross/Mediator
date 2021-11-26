@@ -24,7 +24,7 @@ bot.on('voice', (msg) => {
       const { result } = response.data;
       const chatId = msg.chat.id;
       const userName = msg.from.first_name;
-      bot.sendMessage(chatId, `${userName} сказал:\n${result}`);
+      bot.sendMessage(chatId, `${userName} сказал(а):\n${result}`);
     } catch (error) {
       console.log('Error:', error);
     }
